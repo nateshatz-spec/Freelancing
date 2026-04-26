@@ -9,7 +9,9 @@
 | **Upheal** | AI Admin | [ ] Not Contacted | Twitter/X | Rapid prototyping for new features |
 | **Equip** | Eating Disorders | [ ] Not Contacted | LinkedIn | Patient dashboard rescue mission |
 | **Nyra Health** | Neuro-rehab | [ ] Not Contacted | Email | Specialized medical UI refresh |
-| **Grow Therapy** | Massive Growth | [ ] Not Contacted | LinkedIn | Scaling technical debt in UI |
+| **Vortex Finance** | FinTech | [ ] Not Contacted | LinkedIn | Premium crypto/wealth management dashboard |
+| **Nova Logic** | AI Infra | [ ] Not Contacted | Twitter/X | Visualizing complex LLM pipelines |
+| **Aether SaaS** | B2B SaaS | [ ] Not Contacted | Email | Modernizing enterprise admin panels |
 
 ---
 

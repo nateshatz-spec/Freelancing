@@ -7,7 +7,7 @@ Use these templates to reach out to potential clients. Remember to **personalize
 
 > "Hey [Name], just saw your latest update on [Project Name]. The concept is incredible, but I noticed the current UI might not be doing the vision justice yet. 
 > 
-> I specialize in building 'Cinematic MVPs'—high-fidelity, premium digital experiences for wellness brands. Just finished a spec demo of a wellness dashboard that might fit your vibe: [Link to your showcase]
+> I specialize in building 'Cinematic MVPs'—high-fidelity, premium digital experiences that stand out in crowded markets. Just finished a spec demo of a high-performance dashboard that might fit your vibe: [Link to your showcase]
 > 
 > Any interest in a quick 10-min chat about elevating your app's visual identity to match the quality of your tech? No pressure, just thought I'd reach out."
 
