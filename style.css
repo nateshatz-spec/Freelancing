@@ -101,6 +101,11 @@ nav {
     box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
 }
 
+.btn-primary:active, .btn-secondary:active {
+    transform: scale(0.95);
+    filter: brightness(1.2);
+}
+
 .btn-secondary {
     background: var(--card-bg);
     border: 1px solid var(--border);
@@ -119,13 +124,15 @@ nav {
 
 /* Hero Section */
 .hero {
+    padding: 160px 5% 100px;
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
     gap: 4rem;
-    padding: 8rem 5%;
     align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
+    min-height: 90vh;
+    background: linear-gradient(rgba(5,5,5,0.8), rgba(5,5,5,0.8)), url('assets/hero_bg.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .hero h1 {
@@ -202,9 +209,17 @@ nav {
 
 .stat-box {
     background: rgba(255, 255, 255, 0.05);
-    padding: 1rem;
+    padding: 12px 20px;
     border-radius: 12px;
     border: 1px solid var(--border);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.stat-box:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    border-color: var(--accent-blue);
 }
 
 .stat-box .label {
@@ -316,11 +331,13 @@ nav {
     border: 1px solid var(--border);
     border-radius: 32px;
     overflow: hidden;
-    transition: transform 0.4s ease, border-color 0.4s ease;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s, border-color 0.4s ease;
 }
 
 .portfolio-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.5), 0 0 20px rgba(59, 130, 246, 0.2);
     border-color: var(--accent-blue);
 }
 

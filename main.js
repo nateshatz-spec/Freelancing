@@ -84,4 +84,14 @@ document.addEventListener('DOMContentLoaded', () => {
             glow.style.transform = `translate(${(x - 0.5) * 20}px, ${(y - 0.5) * 20}px)`;
         }
     });
+
+    // 5. Stat Box Click Animation
+    document.querySelectorAll('.stat-box').forEach(box => {
+        box.addEventListener('click', () => {
+            box.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                box.style.transform = 'scale(1)';
+            }, 100);
+        });
+    });
 });
