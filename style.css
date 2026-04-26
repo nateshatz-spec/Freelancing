@@ -506,7 +506,7 @@ footer {
 
 /* Portfolio Page Styles */
 .portfolio-page {
-    background: var(--bg-color);
+    background: #000000;
 }
 
 .portfolio-hero {
