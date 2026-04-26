@@ -12,6 +12,11 @@
 | **Vortex Finance** | FinTech | [ ] Not Contacted | LinkedIn | Premium crypto/wealth management dashboard |
 | **Nova Logic** | AI Infra | [ ] Not Contacted | Twitter/X | Visualizing complex LLM pipelines |
 | **Aether SaaS** | B2B SaaS | [ ] Not Contacted | Email | Modernizing enterprise admin panels |
+| **Zyner.io** | AI Social | [ ] Not Contacted | Twitter/X | YC W26—New AI tool, likely needs UI polish |
+| **Extruct.ai** | AI Data | [ ] Not Contacted | LinkedIn | YC W26—Focus on "Visualizing Unstructured Data" |
+| **DraftPath** | Product Design | [ ] Not Contacted | Twitter/X | Solo-founder, active on "Building in Public" |
+| **Nexus Devs** | Dev Agency | [ ] Not Contacted | Email | Partnering for "Cinematic UI" add-on for their clients |
+| **SwiftScale** | Indie SaaS | [ ] Not Contacted | Twitter/X | Rapidly iterating on a new dashboard for creators |
 
 ---
 
