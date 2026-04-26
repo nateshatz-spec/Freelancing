@@ -49,28 +49,46 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     document.head.appendChild(style);
 
-    // 3. Form Submission Simulation
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
+    // 3. Discovery Form Handling (Formspree Integration)
+    const discoveryForm = document.getElementById('discovery-form');
+    const formSuccess = document.getElementById('form-success');
+
+    if (discoveryForm) {
+        discoveryForm.addEventListener('submit', async (e) => {
             e.preventDefault();
-            const email = contactForm.querySelector('input').value;
-            const btn = contactForm.querySelector('button');
+            const btn = document.getElementById('submit-btn');
+            const originalBtnText = btn.textContent;
             
-            btn.textContent = 'Sending...';
+            btn.textContent = 'Sending Vision...';
             btn.disabled = true;
 
-            setTimeout(() => {
-                btn.textContent = 'Booking Confirmed!';
-                btn.style.background = '#10b981';
-                contactForm.querySelector('input').value = '';
-                
+            const formData = new FormData(discoveryForm);
+            
+            try {
+                const response = await fetch(discoveryForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    discoveryForm.classList.add('hidden');
+                    formSuccess.classList.remove('hidden');
+                    
+                    // Optional: Scroll to success message
+                    formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                } else {
+                    throw new Error('Submission failed');
+                }
+            } catch (error) {
+                btn.textContent = 'Error. Try Again?';
+                btn.disabled = false;
                 setTimeout(() => {
-                    btn.textContent = 'Book a Discovery Call';
-                    btn.style.background = '';
-                    btn.disabled = false;
+                    btn.textContent = originalBtnText;
                 }, 3000);
-            }, 1500);
+            }
         });
     }
 

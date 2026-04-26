@@ -71,34 +71,34 @@
             <div class="portfolio-grid">
                 <div class="portfolio-card" onclick="window.location.href='portfolio.html'">
                     <div class="portfolio-img">
-                        <img src="assets/nexus_intelligence.png" alt="Nexus Intelligence">
+                        <img src="assets/wya_wellness.png" alt="WYA Wellness OS">
                         <div class="portfolio-overlay">
-                            <span>Mobile App</span>
+                            <span>Flagship Build</span>
                         </div>
                     </div>
                     <div class="portfolio-info">
-                        <h3>Nexus Intelligence</h3>
-                        <p>A sophisticated AI engine with cinematic data visualizations and real-time processing.</p>
+                        <h3>WYA: Wellness OS</h3>
+                        <p>A premium mental health platform featuring AI-driven insights, biometric tracking, and cinematic design.</p>
                         <div class="tags">
-                            <span>React Native</span>
-                            <span>AI Integration</span>
+                            <span>SwiftUI</span>
+                            <span>CoreHaptics</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-card" onclick="window.location.href='portfolio.html'">
                     <div class="portfolio-img">
-                        <img src="assets/enterprise_nexus.png" alt="Enterprise Nexus">
+                        <img src="assets/nexus_intelligence.png" alt="Spec Project">
                         <div class="portfolio-overlay">
-                            <span>Web Platform</span>
+                            <span>Spec Concept</span>
                         </div>
                     </div>
                     <div class="portfolio-info">
-                        <h3>Enterprise Nexus</h3>
-                        <p>High-performance analytics dashboard for complex data tracking and real-time operational support.</p>
+                        <h3>The Spec Project: NexusOS</h3>
+                        <p>High-performance analytics dashboard designed for complex data visualization and real-time support.</p>
                         <div class="tags">
                             <span>Next.js</span>
-                            <span>Data Viz</span>
+                            <span>D3.js</span>
                         </div>
                     </div>
                 </div>
@@ -118,34 +118,94 @@
             <div class="service-card">
                 <div class="icon">✨</div>
                 <h3>The Cinematic MVP</h3>
-                <p>From concept to App Store in 4-6 weeks. High-fidelity UI, cloud sync, and premium animations included.</p>
+                <p>From concept to App Store in 30 days. We build high-fidelity MVPs with cloud-sync, premium haptics, and investor-ready aesthetics.</p>
             </div>
             <div class="service-card">
                 <div class="icon">🔍</div>
-                <h3>UI/UX Rescue</h3>
-                <p>Is your current app looking dated? We perform a complete visual overhaul to meet modern premium standards.</p>
+                <h3>The Visual Overhaul</h3>
+                <p>Is your app looking dated? We transform functional but "ugly" apps into premium, cinematic experiences that command attention.</p>
             </div>
             <div class="service-card">
                 <div class="icon">⚡</div>
-                <h3>Rapid Prototyping</h3>
+                <h3>Strategic Prototyping</h3>
                 <p>Need to pitch investors next week? We build high-fidelity interactive prototypes that look and feel like the real thing.</p>
             </div>
         </section>
 
         <section id="contact" class="cta">
             <div class="cta-box">
-                <h2>Ready to build something iconic?</h2>
-                <p>Let's turn your idea into a premium digital product in record time.</p>
-                <form id="contact-form">
-                    <input type="email" placeholder="Your email address" required>
-                    <button type="submit" class="btn-primary" id="contact-submit">Book a Discovery Call</button>
+                <h2>Start Your Sprint</h2>
+                <p>Fill out the discovery form below, and we'll get back to you within 24 hours with a custom proposal.</p>
+                
+                <form id="discovery-form" action="https://formspree.io/f/mzdyqdpy" method="POST">
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label>Your Name</label>
+                            <input type="text" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Work Email</label>
+                            <input type="email" name="email" placeholder="john@company.com" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Platform Needed</label>
+                        <div class="radio-group">
+                            <label class="radio-item">
+                                <input type="radio" name="service" value="iOS App" checked>
+                                <span>iOS App</span>
+                            </label>
+                            <label class="radio-item">
+                                <input type="radio" name="service" value="Website">
+                                <span>Website</span>
+                            </label>
+                            <label class="radio-item">
+                                <input type="radio" name="service" value="Both">
+                                <span>Both</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label>Budget Range</label>
+                            <select name="budget" required>
+                                <option value="" disabled selected>Select a range</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k+">$25,000+</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label>Timeline</label>
+                            <select name="timeline" required>
+                                <option value="" disabled selected>When do you need it?</option>
+                                <option value="ASAP">ASAP</option>
+                                <option value="4-6-weeks">4-6 Weeks</option>
+                                <option value="2-3-months">2-3 Months</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Tell us about your vision</label>
+                        <textarea name="description" placeholder="What are we building?" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary" id="submit-btn">Submit Discovery Form</button>
                 </form>
+                <div id="form-success" class="hidden">
+                    <div class="success-icon">✨</div>
+                    <h3>Application Received!</h3>
+                    <p>We'll review your vision and reach out via email shortly.</p>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Shatzkamer Studio. Built with Precision.</p>
+        <p>&copy; 2026 Shatzkamer Studio. Built with Precision.</p>
     </footer>
 
     <script src="main.js"></script>

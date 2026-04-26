@@ -82,17 +82,56 @@
         <section id="contact" class="cta">
             <div class="cta-box">
                 <h2>Ready to build your masterpiece?</h2>
-                <p>Let's turn your vision into a high-fidelity reality.</p>
-                <form id="contact-form">
-                    <input type="email" placeholder="Your email address" required>
-                    <button type="submit" class="btn-primary" id="contact-submit">Get a Quote</button>
+                <p>Fill out the discovery form below, and we'll get back to you with a custom proposal.</p>
+                
+                <form id="discovery-form" action="https://formspree.io/f/mzdyqdpy" method="POST">
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label>Your Name</label>
+                            <input type="text" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Work Email</label>
+                            <input type="email" name="email" placeholder="john@company.com" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Platform Needed</label>
+                        <div class="radio-group">
+                            <label class="radio-item">
+                                <input type="radio" name="service" value="iOS App" checked>
+                                <span>iOS App</span>
+                            </label>
+                            <label class="radio-item">
+                                <input type="radio" name="service" value="Website">
+                                <span>Website</span>
+                            </label>
+                            <label class="radio-item">
+                                <input type="radio" name="service" value="Both">
+                                <span>Both</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Project vision</label>
+                        <textarea name="description" placeholder="Briefly describe your project..." rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary" id="submit-btn">Submit Application</button>
                 </form>
+                <div id="form-success" class="hidden">
+                    <div class="success-icon">✨</div>
+                    <h3>Application Received!</h3>
+                    <p>We'll review your vision and reach out via email shortly.</p>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Shatzkamer Studio. Built with Precision.</p>
+        <p>&copy; 2026 Shatzkamer Studio. Built with Precision.</p>
     </footer>
 
     <script src="main.js"></script>

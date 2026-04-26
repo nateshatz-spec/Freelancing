@@ -631,9 +631,110 @@ footer {
     #contact-form { flex-direction: column; }
 }
 
-@media (max-width: 850px) {
-    .gallery-grid { grid-template-columns: 1fr; }
-    .gallery-item.large { grid-column: span 1; }
-    .portfolio-hero h1 { font-size: 3rem; }
-    .case-footer { flex-direction: column; gap: 2rem; text-align: center; }
+/* Discovery Form Styles */
+#discovery-form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group label {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#discovery-form input, 
+#discovery-form select, 
+#discovery-form textarea {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    border-radius: 12px;
+    color: white;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#discovery-form input:focus, 
+#discovery-form select:focus, 
+#discovery-form textarea:focus {
+    outline: none;
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+}
+
+.radio-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.radio-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.radio-item input {
+    position: absolute;
+    opacity: 0;
+}
+
+.radio-item span {
+    display: block;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    text-align: center;
+    font-size: 0.85rem;
+    transition: all 0.3s;
+}
+
+.radio-item input:checked + span {
+    background: rgba(59, 130, 246, 0.1);
+    border-color: var(--accent-blue);
+    color: white;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+#form-success {
+    padding: 2rem;
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.success-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    .form-grid, .radio-group {
+        grid-template-columns: 1fr;
+    }
 }

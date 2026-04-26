@@ -17,6 +17,18 @@
 | **DraftPath** | Product Design | [ ] Not Contacted | Twitter/X | Solo-founder, active on "Building in Public" |
 | **Nexus Devs** | Dev Agency | [ ] Not Contacted | Email | Partnering for "Cinematic UI" add-on for their clients |
 | **SwiftScale** | Indie SaaS | [ ] Not Contacted | Twitter/X | Rapidly iterating on a new dashboard for creators |
+| **Entelo Bio** | Life Sciences AI | [ ] Not Contacted | Email | Seed ($4M)—Needs high-fidelity data viz |
+| **LighthouseAI** | Health Compliance | [ ] Not Contacted | LinkedIn | Early ($8M)—Visual overhaul mission |
+| **Amperos Health** | Clinical Workflow | [ ] Not Contacted | Email | Series A ($16M)—Premium dash rescue |
+| **Courier Health** | Patient Experience | [ ] Not Contacted | LinkedIn | Series B ($50M)—High-end portal overhaul |
+| **Sura Health** | RPM Tech | [ ] Not Contacted | Twitter/X | Fresh Seed—Needs "Cinematic MVP" for V2 |
+| **Voda** | Mental Health | [ ] Not Contacted | Email | Inclusive, high-fidelity design refresh |
+| **Zenith.ai** | AI Sleep Coach | [ ] Not Contacted | Reddit | Bootstrapped—Needs Cinematic dark mode |
+| **VibeCheck** | AI Mood Tracker | [ ] Not Contacted | Twitter/X | Pre-Seed ($25k)—Needs hi-fi prototypes |
+| **Serene.io** | Dev Focus Tool | [ ] Not Contacted | Product Hunt | Indie—Needs "UI/UX Rescue" overhaul |
+| **Aura Flow** | Breathing App | [ ] Not Contacted | Indie Hackers | Solo-founder—Perfect "Cinematic MVP" candidate |
+| **Pura.ai** | Water Tracking | [ ] Not Contacted | LinkedIn | Pre-Seed—Needs iOS V1 Design Partner |
+| **Clarity Labs** | ADHD Admin | [ ] Not Contacted | Twitter/X | Bootstrapped—Needs premium animations |
 
 ---
 
