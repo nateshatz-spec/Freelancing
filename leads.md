@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **Jimini Health** | AI Therapy | [ ] Not Contacted | LinkedIn DM | Pitch: "Humanizing AI via Cinematic UI" |
 | **Slingshot AI** | Therapist Tools | [ ] Not Contacted | Twitter/X | Focus on data viz for therapist dashboards |
-| **Salma Health** | Wellness Scaling | [ ] Not Contacted | Email | High-budget brand overhaul potential |
+| **Salma Health** | Enterprise Scaling | [ ] Not Contacted | Email | High-budget brand overhaul potential |
 | **Ease Health** | Massive Scale | [ ] Not Contacted | LinkedIn | $411M Series A—likely needs UI consistency |
 | **Upheal** | AI Admin | [ ] Not Contacted | Twitter/X | Rapid prototyping for new features |
 | **Equip** | Eating Disorders | [ ] Not Contacted | LinkedIn | Patient dashboard rescue mission |
