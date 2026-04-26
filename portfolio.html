@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Shatzkamer Studio</title>
+    <meta name="description" content="A showcase of high-fidelity, cinematic MVPs and boutique digital products by Shatzkamer Studio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="portfolio-page">
+    <div class="glow-overlay"></div>
+    
+    <nav>
+        <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">SHATZKAMER <span>STUDIO</span></a></div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#work">Work</a>
+            <a href="#contact" class="btn-primary">Start a Project</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="portfolio-hero">
+            <h1>The Showcase</h1>
+            <p>Strategic builds that combine cinematic aesthetics with high-performance engineering.</p>
+        </section>
+
+        <section class="case-study-detail">
+            <div class="case-header">
+                <span class="badge">Featured Case Study</span>
+                <h2>WYA 3.0: Wellness Reimagined</h2>
+                <p>A comprehensive mental wellness platform featuring AI-driven insights, biometric tracking, and a premium dark-mode design system.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="assets/wya_onboarding.png" alt="WYA Onboarding">
+                    <div class="item-overlay">
+                        <h3>Cinematic Onboarding</h3>
+                        <p>A high-impact entrance experience designed to reduce churn and build immediate trust.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/wya_wellness.png" alt="WYA Wellness Dashboard">
+                    <div class="item-overlay">
+                        <h3>Wellness Core</h3>
+                        <p>Simplified crisis support and mood tracking with a focus on clarity.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/wya_prevention.png" alt="WYA Prevention Lab">
+                    <div class="item-overlay">
+                        <h3>The Prevention Lab</h3>
+                        <p>AI-powered recovery coaching and habit tracking.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/wya_profile.png" alt="WYA Profile and Quests">
+                    <div class="item-overlay">
+                        <h3>Gamified Progress</h3>
+                        <p>Visualizing the 'Clarity Path' through level-based progression.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/wya_journal.png" alt="WYA AI Journal">
+                    <div class="item-overlay">
+                        <h3>AI Smart Journal</h3>
+                        <p>Reflective journaling powered by proprietary AI prompts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-footer">
+                <div class="tech-stack">
+                    <span>SwiftUI</span>
+                    <span>Firebase</span>
+                    <span>OpenAI API</span>
+                    <span>CoreHaptics</span>
+                </div>
+                <a href="#contact" class="btn-primary">Request a Similar Build</a>
+            </div>
+        </section>
+
+        <section id="contact" class="cta">
+            <div class="cta-box">
+                <h2>Ready to build your masterpiece?</h2>
+                <p>Let's turn your vision into a high-fidelity reality.</p>
+                <form id="contact-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn-primary" id="contact-submit">Get a Quote</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shatzkamer Studio. Built with Precision.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
