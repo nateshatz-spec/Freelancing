@@ -29,6 +29,11 @@
 | **Aura Flow** | Breathing App | [ ] Not Contacted | Indie Hackers | Solo-founder—Perfect "Cinematic MVP" candidate |
 | **Pura.ai** | Water Tracking | [ ] Not Contacted | LinkedIn | Pre-Seed—Needs iOS V1 Design Partner |
 | **Clarity Labs** | ADHD Admin | [ ] Not Contacted | Twitter/X | Bootstrapped—Needs premium animations |
+| **0studio.ai** | Mental Health/Art | [ ] Not Contacted | Twitter/X | Immersive production/Krista Kim |
+| **100.co** | AI Brands | [ ] Not Contacted | LinkedIn | CLAIRE AI platform/Kim Perell |
+| **1001 Remedies** | Wellness eCommerce | [ ] Not Contacted | Email | High revenue, needs luxury UI refresh |
+| **100% Chiropractic** | Patient Experience | [ ] Not Contacted | LinkedIn | National scale, generic portal overhaul |
+| **1000 Miles Therapy** | Ayurvedic Tech | [ ] Not Contacted | Email | Boutique UK practice, high-touch niche |
 
 ---
 
